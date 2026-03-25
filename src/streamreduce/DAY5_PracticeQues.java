@@ -46,10 +46,22 @@ public class DAY5_PracticeQues {
 //		List<String> Descending = list1.stream().sorted((a,b)->b.compareTo(a)).toList();
 //		System.out.println(Descending);
 		
-		List<String> list = Arrays.asList("Java","SpringBoot","API","Microservices","SQL");
-		List<String> Ascending = list.stream().sorted((a,b)->b.length()-a.length()).toList();
-		System.out.println(Ascending);
-
+//		List<String> list = Arrays.asList("Java","SpringBoot","API","Microservices","SQL");
+//		List<String> Ascending = list.stream().sorted((a,b)->b.length()-a.length()).toList();
+//		System.out.println(Ascending);
+		
+		//17
+		List<Employee> list = Arrays.asList();
+		List.add(new Employee(1,"Rahul",2000,"IT"));
+		List.add(new Employee(2,"Rohit",2300,"IIT"));
+		List.add(new Employee(3,"Aman",1000,"MCA"));
+		List.add(new Employee(4,"Kunal",2500,"CS"));
+		List.add(new Employee(5,"Ram",2800,"CSE"));
+		
+		list.addAll();
+		
+		
+		
 	}
 
 }
